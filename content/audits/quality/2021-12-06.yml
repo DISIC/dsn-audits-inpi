@@ -1,0 +1,53 @@
+---
+- pages:
+    - name: Toutes les pages
+      blocks:
+        - name: "Partout"
+          errors:
+            - name: 'Ne pas ajouter de `tabindex="0"` à la légère'
+              description: |
+                Il faut mettre un `tabindex="0"` **seulement** sur les éléments activables qui ne le sont pas nativement
+                (`<span role="button">` versus `<input type="button">` par exemple) pour que l'utilisateur du clavier
+                puisse placer le focus sur l'élément pour l'activer ensuite
+              type: "HTML code"
+              delivery: lot 1
+
+            - name: "Ne pas ajouter d'attribut `aria-label` sur des éléments tels que `<form>`"
+              description: "Voir [Utiliser l'attribut aria-label](https://developer.mozilla.org/fr/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute)"
+              type: HTML
+              delivery: lot 1
+      blocks:
+        - name: "Liens d'accès rapide"
+          errors:
+            - name: 'Lien dupliqué: "Aller au contenu"'
+              type: structure
+              delivery: lot 1
+    - name: Accueil
+      blocks:
+        - name: "Bandeau principal"
+          errors:
+            - name: 'Typo'
+              description: 'Le *placeholder* du champ de recherche a une typo : "&amp;" au lieu de "&"'
+              type: contenu
+              delivery: lot 1
+            - name: 'Contraste'
+              description:
+                'Les 2 liens "Recherche avancée" et "Aide à la recherche" et le texte
+                "* données issues des greffes des tribunaux[...]" se retrouve sur un nuage de points bleus qui les rend moins lisibles'
+              type: Design
+              delivery: lot 1
+        - name: "Les données de l'INPI"
+          errors:
+            - name: 'Ordre des rubriques'
+              description: |
+                D'abord
+                1. Marques
+                2. Brevets
+                3. Dessins & Modèles
+
+                puis
+                1. Marques
+                2. Dessins & Modèles
+                3. Brevets
+              type: structure
+              delivery: lot 1

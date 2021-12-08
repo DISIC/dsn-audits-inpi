@@ -1,0 +1,139 @@
+---
+- pages:
+  - name: Global au site
+    blocks:
+    - name: Page
+      errors:
+        - name: Titres
+          description: La structure des titres devrait remonter d’un cran. h2 => h1 et h3 => h2. En supprimant le h1 du header (sur le logo).
+          criterion: '9.1'
+          type: structure
+          delivery: lot 1
+        - name: Langues
+          description: Le code langue sur la balise `<html>` ne change pas lors d’un changement de langue.
+          criterion: '8.7'
+          type: structure
+          delivery: lot 1
+        - name: Structure sémantique
+          description: Manque de balise `landmark`, notamment `<main>`.
+          criterion: '9.2'
+          type: structure
+          delivery: lot 1
+        - name: Menu d’évitement
+          description: Manque une menu d’évitement.
+          criterion: '12.7'
+          type: structure
+          delivery: lot 1
+    - name: Menu de côté
+      errors:
+        - name: Accès clavier
+          description: Lors de la navigation au clavier
+          criterion: '9.2'
+          type: structure
+        - name: Focus clavier
+          description: Lors de la navigation au clavier le focus n’est pas assez visible sur les éléments de liens.
+          criterion: '10.7'
+          type: structure
+          delivery: lot 1
+        - name: Évitement
+          description: Ce menu ne peut être évité.
+          criterion: '12.6'
+          type: structure
+          delivery: lot 1
+        - name: Tabulation
+          description: Ce menu arrive en 2ème dans l’ordre de tabulation (et ne peut être évité).
+          criterion: '12.8'
+          type: structure
+          delivery: lot 1
+    - name: Footer
+      errors:
+        - name: Navigation footer
+          description: Les listes de liens ne sont pas englobées dans des balises `<nav>`, ni dans une liste sémantique.
+          type: structure
+          delivery: lot 1
+        - name: Champ recherche
+          description: Il manque une étiquette au champ de recherche.
+          criterion: 11.1
+          type: structure
+          delivery: lot 1
+        - name: Bouton recherche
+          description: Le nom du bouton de recherche n’est pas pertinent.
+          criterion: 11.9
+          type: structure
+          delivery: lot 1
+  - name: Accueil
+    url: https://data.inpi.fr
+    blocks:
+      - name: Contenu
+        errors:
+          - name: Titres
+            description: 'Le titre de la bannière est renseigné comme titre 2. Alors qu’il n’y a pas de titre 1 dans la page (un h1 appliqué au logo n’est pas une bonne pratique). Ce titre doit : soit être un titre 1, soit précédé d‘un titre 1.'
+            type: structure
+            criterion: 9.1
+            delivery: lot 1
+          - name: Alternatives images illustration
+            description: Suppprimer les alternatives (laisser une `alt` vide) sur les images de décoration.
+            type: structure
+            criterion: 1.2
+            delivery: lot 1
+          - name: Alternatives images description
+            description: Les descriptions d’images ne sont pas pertinentes.
+            type: texte
+            criterion: 1.3
+            delivery: lot 1
+      - name: Recherche
+        errors:
+          - name: Couleur de fond boutons
+            description: Le bouton de recherche n’est pas assez constrasté.
+            type: visual
+            criterion: 3.3
+            delivery: lot 1
+          - name: Étiquette
+            description: Manque une étiquette sur le champs.
+            type: visual
+            criterion: 11.1
+            delivery: lot 1
+      - name: Graphique
+        errors:
+          - name: Alternatives carte france description
+            description: La carte de France devrait avoir une description détaillée.
+            type: structure
+            criterion: 1.3
+            delivery: lot 1
+          - name: Carte
+            description: Le graphique n‘est pas compatible avec les technologies d’assistance.
+            type: code
+            criterion: 7.1
+          - name: Carte
+            description: Le graphique n’est pas accessible au clavier.
+            type: code
+            criterion: 7.3
+      - name: Réutilisation des données
+        errors:
+          - name: Texte descriptif
+            description: Le texte sort de la zone si on agrandit le texte ou si on augmente l’interlignage.
+            type: code
+            criterion: 10.12
+            delivery: lot 1
+  - name: Recherche
+    url: https://data.inpi.fr/search?advancedSearch=%257B%257D&filter=%257B%257D&nbResultsPerPage=20&order=asc&page=1&q=bouygues&sort=relevance&type=companies
+    blocks:
+      - name: Filtres
+        errors:
+          - name: Champs de filtres
+            description: Les filtres ne sont pas regroupés dans des `<fieldset>`.
+            type: texte
+            criterion: 11.5
+            delivery: lot 1
+          - name: Titre des regroupements de champs
+            description: Les titres des regroupements de champs devraient être englobés dans des balises `<legend>`.
+            type: texte
+            criterion: 11.6
+            delivery: lot 1
+      - name: Liste de résultats
+        errors:
+          - name: Liens actions
+            description: Les actions figurant dans les élements de résultats présentent des intitulés de liens non pertinents.
+            type: texte
+            criterion: 6.1
+            delivery: lot 1

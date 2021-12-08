@@ -1,0 +1,107 @@
+"Thématiques","Critères","Accueil",Recherche,Entreprises
+"1","1","c",c,c
+"1","2","nc|Supprimer les alternatives sur les images de décoration",nc|Supprimer les alternatives sur les images de décoration,nc|Supprimer les alternatives sur les images de décoration
+"1","3","nc|Les descriptions d’images ne sont pas pertinentes",nc|Les descriptions d’images ne sont pas pertinentes,nc|Les descriptions d’images ne sont pas pertinentes
+"1","4","na",na,na
+"1","5","na",na,na
+"1","6","na",na,na
+"1","7","na",na,na
+"1","8","na",na,na
+"1","9","na",na,na
+"2","1","na",na,na
+"2","2","na",na,na
+"3","1","c",c,c
+"3","2","c",c,c
+"3","3","nc|Le bouton de recherche n'est pas assez constrasté",c,c
+"4","1","na",na,na
+"4","2","na",na,na
+"4","3","na",na,na
+"4","4","na",na,na
+"4","5","na",na,na
+"4","6","na",na,na
+"4","7","na",na,na
+"4","8","na",na,na
+"4","9","na",na,na
+"4","10","na",na,na
+"4","11","na",na,na
+"4","12","na",na,na
+"4","13","na",na,na
+"5","1","na",na,na
+"5","2","na",na,na
+"5","3","na",na,na
+"5","4","na",na,na
+"5","5","na",na,na
+"5","6","na",na,na
+"5","7","na",na,na
+"5","8","na",na,na
+"6","1","nc",nc|Les liens d’actions ont des intitulés peu clairs,nc|Les liens d’actions ont des intitulés peu clairs
+"6","2","c",c,c
+"7","1","nc|Le graphique n‘est pas compatible avec les technologies d’assistance",nc,nc
+"7","2","nc|Les graphiques n'ont pas d’alternatives pertinentes",nc,nc
+"7","3","nc|Le graphique n’est pas accessible au clavier",nc,nc
+"7","4","nc",nc,nc
+"7","5","na",na,na
+"8","1","c",c,c
+"8","2","c",c,c
+"8","3","c",c,c
+"8","4","c",c,c
+"8","5","c",c,c
+"8","6","c",c,c
+"8","7","nc|Le code reste `fr` lors du changement de langue","nc|Le code reste `fr` lors du changment de langue","nc|Le code reste `fr` lors du changment de langue"
+"8","8","c",c,c
+"8","9","c",c,c
+"8","10","na",na,na
+"9","1","nc|On observe des sauts de titres",nc,nc
+"9","2","nc|Aucune balise sémantique","nc|Aucune balise sémantique","nc|Aucune balise sémantique"
+"9","3","na",na,na
+"9","4","na",na,na
+"10","1","c",c,c
+"10","2","nc",nc,nc
+"10","3","nc",nc,nc
+"10","4","nc",,
+"10","5","c",c,c
+"10","6","nc",nc,nc
+"10","7","nc|Le menu à 2 entrées de côté, présente un focus dégradé","nc|Le menu à 2 entrées de côté, présente un focus dégradé","nc|Le menu à 2 entrées de côté, présente un focus dégradé"
+"10","8","nc|La modale tutoriel ne devrait pas être cachée","nc|La modale tutoriel ne devrait pas être cachée","nc|La modale tutoriel ne devrait pas être cachée"
+"10","9","c",c,c
+"10","10","c",c,c
+"10","11","c",c,c
+"10","12","nc|Le bloc Réutilisation des données voit son texte sortir de la zone",c,c
+"10","13","c",c,c
+"10","14","na",na,na
+"11","1","nc|Les 2 champs de recherche n’ont pas de `label`","nc|Les 2 champs de recherche n’ont pas de `label`","nc|Les 2 champs de recherche n’ont pas de `label`"
+"11","2","c",nc,nc
+"11","3","c",c,c
+"11","4","c",c,c
+"11","5","na","nc|Les filtres sur la gauche ne sont pas regroupés","na"
+"11","6","na","nc|Le titre de la zone de filters devraient être englobé dans une balise `<legend>`","na"
+"11","7","na",na,na
+"11","8","na",na,nc
+"11","9","nc|Le bouton de recherche dans le footer n’a pas un intitulé pertinent","nc|Le bouton de recherche dans le footer n’a pas un intitulé pertinent","nc|Le bouton de recherche dans le footer n’a pas un intitulé pertinent"
+"11","10","na",na,na
+"11","11","na",na,na
+"11","12","na",na,na
+"11","13","na",na,na
+"12","1","c",c,c
+"12","2","c",c,c
+"12","3","c",c,c
+"12","4","c",c,c
+"12","5","c",c,c
+"12","6","nc|Pas de `landmark`, pas d’évitement","nc|Pas de `landmark`, pas d’évitement","nc|Pas de `landmark`, pas d’évitement"
+"12","7","nc|Pas de menu d’évitement","nc|Pas de menu d’évitement","nc|Pas de menu d’évitement"
+"12","8","nc|Le menu de côté apparaît en premier dans l’ordre de tabulation","nc|Le menu de côté apparaît en premier dans l’ordre de tabulation","nc|Le menu de côté apparaît en premier dans l’ordre de tabulation"
+"12","9","na",na,na
+"12","10","na",na,na
+"12","11","na",na,na
+"13","1","c",c,c
+"13","2","nc",nc,"nc|Le bouton `je donne mon avis`"
+"13","3","nc",nc,nc
+"13","4","na",na,na
+"13","5","na",na,na
+"13","6","na",na,na
+"13","7","na",na,na
+"13","8","na",na,na
+"13","9","c",c,c
+"13","10","na",na,na
+"13","11","na",na,na
+"13","12","na",na,na

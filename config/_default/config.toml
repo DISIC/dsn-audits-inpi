@@ -1,0 +1,16 @@
+_merge = "deep"
+
+languageCode = 'fr-fr'
+title = 'INPI'
+
+[module]
+[[module.imports]]
+path = 'github.com/disic/frago'
+
+[outputs]
+ home    = ["HTML","JSON","declaration","declarationpage","accessibility","quality","performance"]
+ page    = ["HTML"]
+
+[params]
+  organisation = "L’Institut national de la propriété industrielle"
+  logo = "INPI <small>suivi de mise en conformité de démarches en ligne</small>"
