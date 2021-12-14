@@ -147,7 +147,7 @@ Cf. https://www.w3.org/TR/wai-aria-practices-1.1/examples/menubar/menubar-1/menu
 "11","6","na",nc|Le titre de la zone de filters devraient être englobé dans une balise `<legend>`,na
 "11","7","na",na,na
 "11","8","na",na,nc
-"11","9","c",nc|Les boutons permettant de plier / déplier les filtres par rubrique n'ont pas d'intitulé.,nc|Le bouton de recherche dans le footer n’a pas un intitulé pertinent
+"11","9","c",nc|Les boutons permettant de plier / déplier les filtres par rubrique n'ont pas d'intitulé.,c
 "11","10","na",na,na
 "11","11","na",na,na
 "11","12","na",na,na
