@@ -1,0 +1,124 @@
+"Thématiques","Critères","Accueil",Recherche,Entreprises
+"1","1","c","c|Le chevron "">"" du fil d'Ariane est énoncé ""est supérieur à"" par les lecteurs d'écran. On peut ajouter un attribut `aria-hidden=""true""` par exemple. Sinon, mieux, utiliser les styles CSS ([pseudo élément ::after](https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements#g%C3%A9n%C3%A9rer_du_contenu_avec_before_et_after))","c|Le chevron "">"" du fil d'Ariane est énoncé ""est supérieur à"" par les lecteurs d'écran. On peut ajouter un attribut `aria-hidden=""true""` par exemple. Sinon, mieux, utiliser les styles CSS ([pseudo élément ::after](https://developer.mozilla.org/fr/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements#g%C3%A9n%C3%A9rer_du_contenu_avec_before_et_after))"
+"1","2","nc|Toutes les icones du menu mobile ont des alternatives qui ne devraient pas exister (il faut mettre des `alt` vides)|Les drapeaux également n'ont pas besoin d'alternative car ils sont des illustrations des textes adjacents (Français / English)|L'image `user.svg` a une alternative ""Se connecter"" qui peut être modifiée pour devenir une alternative vide.","nc|Toutes les icones du menu mobile ont des alternatives qui ne devraient pas exister (il faut mettre des `alt` vides)|Les drapeaux également n'ont pas besoin d'alternative car ils sont des illustrations des textes adjacents (Français / English)|L'image `user.svg` a une alternative ""Se connecter"" qui peut être modifiée pour devenir une alternative vide. Image `save.svg` : ""Sauvegarder la recherche"" -> """", image `download.svg` : ""Exporter les 500 premiers résultats"" -> """", etc.","nc|Toutes les icones du menu mobile ont des alternatives qui ne devraient pas exister (il faut mettre des `alt` vides)|Les drapeaux également n'ont pas besoin d'alternative car ils sont des illustrations des textes adjacents (Français / English)|L'image `user.svg` a une alternative ""Se connecter"" qui peut être modifiée pour devenir une alternative vide. Image `arrow-left.svg` : ""Retour aux résultats"" -> """" (en supprimant la fonction de lien déjà présente sur le texte adjacent), image `next.svg` : ""Notice suivante"" -> """" (en modifiant le texte adjacent ""Suivant"" en ""Notice suivante""). Image `chevron-down.svg` ""chevron-down"" --> """""
+"1","3","c",c,"nc|Les textes ""Retype the CAPTCHA code from the image"" et ""Change the CAPTCHA code"" sont en anglais sur la fenêtre modale"
+"1","4","na",na,nc|l'alternative de l'image CAPTCHA est en anglais
+"1","5","na",na,"nc|Le lien ""Je ne peux pas lire le code"" ne fonctionne pas"
+"1","6","na",na,na
+"1","7","na",na,na
+"1","8","na",na,na
+"1","9","na",na,na
+"2","1","c",c,c
+"2","2","c|Changer ""gtm"" pour ""Google Tag Manager"" (il s'agit d'une iframe non visible, le critère reste conforme)","c|Changer ""gtm"" pour ""Google Tag Manager"" (il s'agit d'une iframe non visible, le critère reste conforme)","c|Changer ""gtm"" pour ""Google Tag Manager"" (il s'agit d'une iframe non visible, le critère reste conforme). Il y a aussi une iframe vide sans titre (non visible) : à vérifier si elle sert à quelque-chose."
+"3","1","c",c,c
+"3","2","c",c,c
+"3","3","nc|Le bouton de recherche et les éléments du menu de côté ne sont pas assez contrastés (Ratio de 3 : 1 au lieu de minimum 4.5 : 1)
+
+⚠️ Ne pas oublier de vérifier tous les contrastes. Ne pas oublier le panneau de gestion des cookies. Ne pas oublier la version mobile. etc.","nc|Le bouton de recherche et les éléments du menu de côté ne sont pas assez contrastés (Ratio de 3 : 1 au lieu de minimum 4.5 : 1). Les boutons Entreprises / Marques / Brevets / Dessins & Modèles, sélectionné (fond bleu clair) ont un rapport de contraste insuffisant également (2.9 : 1)
+
+⚠️ Ne pas oublier de vérifier tous les contrastes. Ne pas oublier le panneau de gestion des cookies. Ne pas oublier la version mobile. etc.","nc|Le bouton de recherche et les éléments du menu de côté ne sont pas assez contrastés (Ratio de 3 : 1 au lieu de minimum 4.5 : 1). Les boutons Entreprises / Marques / Brevets / Dessins & Modèles, sélectionné (fond bleu clair) ont un rapport de contraste insuffisant également (2.9 : 1)
+
+⚠️ Ne pas oublier de vérifier tous les contrastes. Ne pas oublier le panneau de gestion des cookies. Ne pas oublier la version mobile. etc."
+"4","1","na",na,na
+"4","2","na",na,na
+"4","3","na",na,na
+"4","4","na",na,na
+"4","5","na",na,na
+"4","6","na",na,na
+"4","7","na",na,na
+"4","8","na",na,na
+"4","9","na",na,na
+"4","10","na",na,na
+"4","11","na",na,na
+"4","12","na",na,na
+"4","13","na",na,na
+"5","1","na",na,na
+"5","2","na",na,na
+"5","3","na",na,na
+"5","4","na",na,na
+"5","5","na",na,na
+"5","6","na",na,na
+"5","7","na",na,na
+"5","8","na",na,na
+"6","1","nc|Plusieurs lien du menu sont ""doublés""|""Chatbot"" devrait être indiqué comme en langue anglaise (ou traduit en français)|Les acronymes CGU, OMPI, OEB, EUIPO, NOA devraient sûrement être explicités.","nc|Plusieurs lien du menu sont ""doublés""|""Chatbot"" devrait être indiqué comme en langue anglaise (ou traduit en français)|Les acronymes CGU, OMPI, OEB, EUIPO, NOA devraient sûrement être explicités.","nc|Plusieurs lien du menu sont ""doublés""|""Chatbot"" devrait être indiqué comme en langue anglaise (ou traduit en français)|Les acronymes CGU, OMPI, OEB, EUIPO, NOA devraient sûrement être explicités."
+"6","2","c",c,c
+"7","1","nc|Les flèches gauche et droite du tutoriel ne sont pas des boutons mes de simples images
+
+⚠️ Ne pas oublier de vérifier que tous les scripts de la page","nc|Les flèches gauche et droite du tutoriel ne sont pas des boutons mais de simples images|Les boutons Entreprises / Marques / Brevets / Dessins & Modèles devraient être des onglets. Voir [Example of Tabs with Manual Activation](https://www.w3.org/TR/wai-aria-practices-1.1/examples/tabs/tabs-2/tabs.html)|Les fenêtre de dialogue (modales) ont bien un attribut `role=""dialog""` mais lorsqu'on les ferme, le focus ne revient pas sur le bouton qui les a ouvert
+
+⚠️ Ne pas oublier de vérifier que tous les scripts","nc|Les flèches gauche et droite du tutoriel ne sont pas des boutons mais de simples images|Les ""chevron-down"" ne sont pas des boutons mais de simples images|Les boutons Entreprises / Marques / Brevets / Dessins & Modèles devraient être des onglets. Voir [Example of Tabs with Manual Activation](https://www.w3.org/TR/wai-aria-practices-1.1/examples/tabs/tabs-2/tabs.html)|Les fenêtre de dialogue (modales) ont bien un attribut `role=""dialog""` mais lorsqu'on les ferme, le focus ne revient pas sur le bouton qui les a ouvert|La flèche next.svg est une image au lieu d'être un bouton
+
+⚠️ Ne pas oublier de vérifier que tous les scripts"
+"7","2","nc|Les données de l'INPI avec animation n'ont pas d'alternative pertinente :
+- Nombre d'entreprises en base : 7 309 621
+- Marques : 6 109 858
+- Dessins & Modèles : 1 319 422
+- Brevets : 5 311 031
+Si c'est trop compliqué à ""filtrer"" dans un DOM un peu complexe, on peut ajouter une div ""sr-only"" avec ces infos.",na,na
+"7","3","c",c,c
+"7","4","c",c,c
+"7","5","na",na,na
+"8","1","c",c,c
+"8","2","nc|Encore des erreurs sur validator.w3.org (ex: ""14pxpx"" au lieu de ""14px"")","nc|Encore des erreurs sur validator.w3.org (ex: ""14pxpx"" au lieu de ""14px"")","nc|Encore des erreurs sur validator.w3.org (ex: ""14pxpx"" au lieu de ""14px"")"
+"8","3","c",c,c
+"8","4","c",c,c
+"8","5","c",c,c
+"8","6","c",c,c
+"8","7","c|La gestion des cookies reste en français lorsque la langue du site est passée en anglais. Aussi, le changement de langue ne fonctionne pas sur Safari (v15.1, sur macOS Catalina 10.15.7)","c|La gestion des cookies reste en français lorsque la langue du site est passée en anglais. Aussi, le changement de langue ne fonctionne pas sur Safari (v15.1, sur macOS Catalina 10.15.7)","c|La gestion des cookies reste en français lorsque la langue du site est passée en anglais. Aussi, le changement de langue ne fonctionne pas sur Safari (v15.1, sur macOS Catalina 10.15.7)"
+"8","8","c",c,c
+"8","9","nc|Ne pas utiliser de `<br>` dans le footer. Vérifier ce critère pour l'ensemble du code html de toutes les pages",nc|Ne pas utiliser de `<br>` dans le footer. Vérifier ce critère pour l'ensemble du code html de toutes les pages,nc|Ne pas utiliser de `<br>` dans le footer. Vérifier ce critère pour l'ensemble du code html de toutes les pages
+"8","10","na",na,na
+"9","1","nc|Hiérarchie de titres incorrecte (il faut remplacer les `<h6>` par des `<h3>`)","nc|Pas de `<h1>` et hiérarchie de titres incorrecte (pas de `<h2>`, `<h3>`, `<h4>` alors que des `<h5>` sont présents)",nc|Pas de `<h1>` et hiérarchie de titres incorrecte (pas de `<h2>` ni `<h4>` alors que des `<h3>` et `<h5>` sont présents)
+"9","2","c",c,c
+"9","3","c",c,c
+"9","4","na",na,na
+"10","1","c",c,c
+"10","2","c",c,c
+"10","3","c|Information généralement difficilement compréhensible sans les styles",c|Information généralement difficilement compréhensible sans les styles,c|Information généralement difficilement compréhensible sans les styles
+"10","4","nc|Des débordements de texte et de graphiques sont visibles lorsque l'on zoom le texte à 200% (à vérifier sur Firefox en sélectionnant ""Affichage"" > ""Zoom"" > ""Zoom texte seulement"")","nc|Des débordements de texte et de graphiques sont visibles lorsque l'on zoom le texte à 200% (à vérifier sur Firefox en sélectionnant ""Affichage"" > ""Zoom"" > ""Zoom texte seulement"")","nc|Des débordements de texte et de graphiques sont visibles lorsque l'on zoom le texte à 200% (à vérifier sur Firefox en sélectionnant ""Affichage"" > ""Zoom"" > ""Zoom texte seulement"")"
+"10","5","c",c,c
+"10","6","na",na,na
+"10","7","c|Contraste de l’outline du focus encore améliorable sur certains éléments : bouton de sélection de langue, bouton rechercher","c|Contraste de l’outline du focus encore améliorable sur certains éléments : bouton de sélection de langue, bouton rechercher","c|Contraste de l’outline du focus encore améliorable sur certains éléments : bouton de sélection de langue, bouton rechercher"
+"10","8","c",c,c
+"10","9","c",c,c
+"10","10","c|Les liens d'accès rapide s'affichent au dessus d'autres éléments de la page sur les écran de petite taille",c|Les liens d'accès rapide s'affichent au dessus d'autres éléments de la page sur les écran de petite taille,c|Les liens d'accès rapide s'affichent au dessus d'autres éléments de la page sur les écran de petite taille
+"10","11","c",c,c
+"10","12","nc|Les titres de régions dépassent de leur cercle",c,c
+"10","13","c","nc|Sur écran de petite taille, on ne peut mettre le focus au clavier (Tab) sur le chevron pour ""ouvrir"" chaque résultat. Il faudrait que cet élément soit un élément <bouton>","nc|Sur écran de petite taille, on ne peut mettre le focus au clavier (Tab) sur les chevron pour ""ouvrir"" chaque résultat. Il faudrait que cet élément soit un élément <bouton>"
+"10","14","na",na,na
+"11","1","c",c,c
+"11","2","c",c,c
+"11","3","c",c,c
+"11","4","c",c,c
+"11","5","na",nc|Les filtres sur la gauche ne sont pas regroupés,"nc|Dans la modale de signalement d'erreur de notice, les boutons radio ne sont pas regroupés."
+"11","6","na","nc|Le titre de la zone de filtres devrait être englobé dans une balise `<legend>` (et pas l'inverse, voir [Can I Include?](https://caninclude.glitch.me/caninclude?child=legend&parent=h5))",na
+"11","7","na",na,na
+"11","8","na",na,nc
+"11","9","c",nc|Les boutons permettant de plier / déplier les filtres par rubrique n'ont pas d'intitulé.,c
+"11","10","na",na,"c|Dans la modale de signalement d'erreur de notice, ajouter un paragraphe pour expliquer que ""*"" signifie ""obligatoire"""
+"11","11","na",na,c
+"11","12","na",na,na
+"11","13","na",na,"nc|Il faut utiliser l'attribut `autocomplete` sur les différents champs  de la modale ""Signaler une erreur sur la notice"""
+"12","1","c",c,c
+"12","2","c",c,c
+"12","3","c",c,c
+"12","4","c",c,c
+"12","5","c",c,c
+"12","6","c","c|L'intitulé du landmark ""<nav>"" correspondant au fil d'Ariane est en anglais (""breadcrumb""). À traduire en français : ""Fil d'Ariane""","c|L'intitulé du landmark ""<nav>"" correspondant au fil d'Ariane est en anglais (""breadcrumb""). À traduire en français : ""Fil d'Ariane"""
+"12","7","c",c,c
+"12","8","c",c,c
+"12","9","na",na,na
+"12","10","na",na,na
+"12","11","na",na,na
+"13","1","c",c,c
+"13","2","c",c,c
+"13","3","nc",nc,nc
+"13","4","na",na,na
+"13","5","na",na,na
+"13","6","na",na,na
+"13","7","na",na,na
+"13","8","na",na,na
+"13","9","c",c,c
+"13","10","na",na,na
+"13","11","na",na,na
+"13","12","na",na,na
